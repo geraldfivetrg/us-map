@@ -20,6 +20,6 @@ window.onmousemove = function (e) {
 
 document.addEventListener('click', function (e) {
   if (e.target.tagName === 'path') {
-    window.location.href = 'https://www.fivetalentsrealty.com/va-loan-pre-qualification';
+    window.open('https://www.fivetalentsrealty.com/va-loan-pre-qualification', '_blank');
   }
 });
