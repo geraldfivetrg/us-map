@@ -21,9 +21,11 @@ path:hover {
 #us-map {
     display: block;
     position: relative;
-    width: 70%;
-    height: 70%;
-    left: 225px;
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 #details-box {
