@@ -21,7 +21,7 @@ path:hover {
 #us-map {
     display: block;
     position: relative;
-    width: 50%;
+    width: 100%;
     height: 50%;
     margin-left: auto;
     margin-right: auto;
@@ -47,9 +47,15 @@ path:hover {
 #stateDropdown {
     display: block;
     position: relative;
-    font-size: 20px;
+    font-size: 1.25em; /* 20px assuming base font-size is 16px */
     font-family: "Poppins";
     margin-left: auto;
     margin-right: auto;
 
 }
+
+@media (max-width: 600px) {
+    #stateDropdown {
+      font-size: 1em;
+    }
+  }
