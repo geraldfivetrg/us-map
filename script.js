@@ -39,6 +39,7 @@ function highlightState(stateId) {
 // Add an onchange event to the dropdown
 document.getElementById('stateDropdown').addEventListener('change', function(e) {
   highlightState(e.target.value);
+  window.open('https://www.fivetalentsrealty.com/va-loan-pre-qualification', '_blank');
 });
 
 // Modify the existing mouseover event to also update the dropdown
